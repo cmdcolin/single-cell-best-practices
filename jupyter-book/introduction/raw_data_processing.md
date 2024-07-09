@@ -508,7 +508,7 @@ simpleaf set-paths
 
 # simpleaf index
 # Usage: simpleaf index -o out_dir [-f genome_fasta -g gene_annotation_GTF|--refseq transcriptome_fasta] -r read_length -t number_of_threads
-## The -r read_lengh is the number of sequencing cycles performed by the sequencer to generate biological reads (read2 in Illumina).
+## The -r read_length is the number of sequencing cycles performed by the sequencer to generate biological reads (read2 in Illumina).
 ## Publicly available datasets usually have the read length in the description. Sometimes they are called the number of cycles.
 simpleaf index \
 -o simpleaf_index \
@@ -607,7 +607,7 @@ First, we process the genome FASTA file and gene annotation GTF file to obtain t
 ```bash
 # make splici reference
 ## Usage: pyroe make-splici genome_file gtf_file read_length out_dir
-## The read_lengh is the number of sequencing cycles performed by the sequencer. Ask your technician if you are not sure about it.
+## The read_length is the number of sequencing cycles performed by the sequencer. Ask your technician if you are not sure about it.
 ## Publicly available datasets usually have the read length in the description.
 pyroe make-splici \
 ${ref_dir}/fasta/genome.fa \
